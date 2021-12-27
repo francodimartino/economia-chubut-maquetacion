@@ -25,6 +25,30 @@
     height: 50%;
     
 }
+.carousel-caption h2{
+    font-weight: 600;
+    padding-bottom: 0 em;
+    margin-bottom: 0em ;
+}
+
+.carousel-caption{
+    /*align at left and background transparent blue*/
+
+    background-color: rgba(0,96,152,0.8);
+    color: #fff;
+    text-align: left;
+    padding: 0.5rem;
+    position: flex;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+    
+
+}
+
+
 
 .barra-arriba{
     background-color: #2e97b4;
