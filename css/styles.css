@@ -1,0 +1,58 @@
+.buscador-nav{
+    
+    border-radius: 13px 0px 0px 13px;
+    
+    
+
+}
+
+.boton-lupa{
+    border-radius: 0px 13px 13px 0px;
+    border: solid #ccc;
+    border-width: 1px 1px 1px 0px;
+    
+}
+
+.buscador-nav::placeholder{
+    color: #aaa;
+}
+
+.fondo-blanco{
+    background-color: #fff;
+}
+.logo-nav{
+    width: 10rem;
+    height: 50%;
+    
+}
+
+.barra-arriba{
+    background-color: #2e97b4;
+    color: #fff;
+    
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 15px 40px 3px 0px;
+    
+    text-align: end;
+}
+
+/*1ero : 182f60*/
+/*2ndo : 2e97b4 */
+/*3ero : 00b4e3*/
+
+
+.btn-institucional{
+    
+    border-bottom: 3px solid #1f295c;
+}
+
+.btn-politica{
+    
+    border-bottom: 3px solid #3f96b4;
+}
+
+.btn-contacto{
+    
+    border-bottom: 3px solid #00b2e3;
+}
