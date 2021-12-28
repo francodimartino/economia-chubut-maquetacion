@@ -78,7 +78,6 @@
 	position: relative;
 	line-height: 1.2em;
 	max-height: 6em;
-	text-align: justify;
 	margin-right: -1em;
 	padding-right: 1em;
 	font-size: 1em;
@@ -141,4 +140,8 @@
 
 .carousel-indicators .active {
 	background-color: rgb(255, 207, 67);
+}
+
+a {
+	text-decoration: none;
 }
