@@ -19,22 +19,61 @@
 	width: 10rem;
 	height: 50%;
 }
+
+
+
+.carousel-caption::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	mix-blend-mode: multiply;
+	background-color: rgb(46, 150, 178, 1);
+}
+
 .carousel-caption h2 {
+	
 	font-weight: 600;
 	padding-bottom: 0 em;
 	margin-bottom: 0em;
+	color: #fff;
+	position: relative;
+	
+	
+	
+}
+
+.carousel-caption h5 {
+	
+	font-weight: 600;
+	padding-bottom: 0 em;
+	margin-bottom: 0em;
+	color: #fff;
+	position: relative;
+	
+	
+	
 }
 .carousel-caption {
-	background-color: rgb(30, 98, 108, 0.8);
+	/*align at left and background transparent blue*/
+
+	
 	color: #fff;
 	text-align: left;
-	padding: 0.5rem;
+	padding: 2rem;
+
 	bottom: 0;
 	left: 0;
-	width: 50%;
+	width: 45%;
 	height: 100%;
 }
-.block-with-text {
+
+
+ .block-with-text {
+	
 	overflow: hidden;
 	position: relative;
 	line-height: 1.2em;
@@ -42,9 +81,11 @@
 	text-align: justify;
 	margin-right: -1em;
 	padding-right: 1em;
+	font-size: 1em;
 }
 .block-with-text:before {
-	content: "...";
+	content: "";
+	display: inline;
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -56,23 +97,19 @@
 	width: 1em;
 	height: 1em;
 	margin-top: 0.2em;
-	background: white;
-}
+	
+} 
 
 .barra-arriba {
 	background-color: #2e97b4;
 	color: #fff;
 
 	font-weight: 500;
-	font-size: 1.5rem;
-	padding: 15px 40px 3px 0px;
+	font-size: 2.7vh;
 
-	text-align: end;
 }
 
-/*1ero : 182f60*/
-/*2ndo : 2e97b4 */
-/*3ero : 00b4e3*/
+
 
 .btn-institucional {
 	border-bottom: 3px solid #1f295c;
