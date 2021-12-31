@@ -145,3 +145,43 @@
 a {
 	text-decoration: none;
 }
+
+.fondo-footer{
+	background-color: rgb(46, 151, 180);
+}
+
+.linea-footer-img{
+	border: 1px solid #fff;
+	margin-bottom: 3px;
+	width: 80%;
+}
+
+.icon-footer{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+div a {
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+}
+
+div a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.questions{
+	color: rgb(245, 206, 67);
+}
+
+.questions:hover {
+	text-decoration: none;
+	color: rgb(245, 206, 67);
+}
+
+.img-footer{
+	width: 100%;
+	height: auto;
+}
