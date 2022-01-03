@@ -20,10 +20,8 @@
 	height: 50%;
 }
 
-
-
 .carousel-caption::before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -35,32 +33,23 @@
 }
 
 .carousel-caption h2 {
-	
 	font-weight: 600;
 	padding-bottom: 0 em;
 	margin-bottom: 0em;
 	color: #fff;
 	position: relative;
-	
-	
-	
 }
 
 .carousel-caption h5 {
-	
 	font-weight: 600;
 	padding-bottom: 0 em;
 	margin-bottom: 0em;
 	color: #fff;
 	position: relative;
-	
-	
-	
 }
 .carousel-caption {
 	/*align at left and background transparent blue*/
 
-	
 	color: #fff;
 	text-align: left;
 	padding: 2rem;
@@ -71,9 +60,7 @@
 	height: 100%;
 }
 
-
- .block-with-text {
-	
+.block-with-text {
 	overflow: hidden;
 	position: relative;
 	line-height: 1.2em;
@@ -96,8 +83,7 @@
 	width: 1em;
 	height: 1em;
 	margin-top: 0.2em;
-	
-} 
+}
 
 .barra-arriba {
 	background-color: #2e97b4;
@@ -105,10 +91,7 @@
 
 	font-weight: 500;
 	font-size: 2.7vh;
-
 }
-
-
 
 .btn-institucional {
 	border-bottom: 3px solid #1f295c;
@@ -146,19 +129,19 @@ a {
 	text-decoration: none;
 }
 
-.fondo-footer{
+.fondo-footer {
 	background-color: rgb(46, 151, 180);
 }
 
-.linea-footer-img{
+.linea-footer-img {
 	border: 1px solid #fff;
 	margin-bottom: 3px;
 	width: 80%;
 }
 
-.icon-footer{
+.icon-footer {
 	width: 2.5rem;
-	height: 2.5rem;
+	height: auto;
 }
 
 div a {
@@ -172,7 +155,7 @@ div a:hover {
 	color: white;
 }
 
-.questions{
+.questions {
 	color: rgb(245, 206, 67);
 }
 
@@ -181,7 +164,23 @@ div a:hover {
 	color: rgb(245, 206, 67);
 }
 
-.img-footer{
+.img-footer {
 	width: 100%;
 	height: auto;
+}
+
+.bi-arrow-down-right {
+	color: #fff;
+}
+
+.test{
+	border: 1px solid red;
+}
+
+.linea-blanca{
+	border-bottom: 2px solid #fff;
+}
+
+.texto-footer-img{
+	font-size: 0.7rem;
 }
