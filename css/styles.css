@@ -214,6 +214,7 @@ a {
 .icon-footer {
 	width: 2.5rem;
 	height: auto;
+	cursor: pointer;
 }
 
 .questions {
@@ -222,6 +223,7 @@ a {
 
 .questions:hover {
 	text-decoration: none;
+	cursor: pointer;
 	color: rgb(245, 206, 67);
 }
 
