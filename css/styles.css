@@ -338,3 +338,24 @@ a {
 .linea-azul {
 	border-left: 2px solid rgb(0, 180, 227);
 }
+
+.form-control{
+	border: none;
+	background-color: rgb(231, 231, 232);
+}
+
+.form-control::placeholder{
+	color: rgb(30, 48, 96);
+}
+
+.boton-text-area {
+	line-height: 99%;
+	background-color: rgb(254, 209, 60);
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	top: 82%;
+	left: 5%;
+	width: auto;
+	transform: translate(-50%, -50%);
+}
