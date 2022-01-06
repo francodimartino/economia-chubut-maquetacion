@@ -1,3 +1,12 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	background: url(/img/fondo.png) no-repeat center center fixed;
+	background-size:cover;
+	
+}
+
+
 .buscador-nav {
 	border-radius: 13px 0px 0px 13px;
 }
@@ -13,7 +22,8 @@
 }
 
 .fondo-blanco {
-	background-color: #fff;
+	background-color: rgb(255, 255, 255, 0);
+	
 }
 .logo-nav {
 	width: 10rem;
@@ -105,7 +115,7 @@
 	border-bottom: 3px solid #00b2e3;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 	.carousel-caption {
 		position: relative;
 		width: 100%;
