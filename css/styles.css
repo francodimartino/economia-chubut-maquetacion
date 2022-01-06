@@ -22,7 +22,7 @@ body {
 }
 
 .fondo-blanco {
-	background-color: rgb(255, 255, 255, 0);
+	background-color: rgb(255, 255, 255);
 	
 }
 .logo-nav {
@@ -327,3 +327,14 @@ a {
   .carousel-inner-cm .carousel-item-start { 
   transform: translateX(0);
   }
+
+
+
+
+  .nav-principal {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
